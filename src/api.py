@@ -1,8 +1,6 @@
 from fastapi import FastAPI, Body
 
 from src.blog_entry.model import BlogEntrySchema, UpdateBlogEntrySchema
-from fastapi.encoders import jsonable_encoder
-
 
 app = FastAPI()
 

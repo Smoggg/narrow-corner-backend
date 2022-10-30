@@ -1,0 +1,10 @@
+{
+    "name": "Backend",
+    "description": "Backend for my test application",
+    "image": "heroku/python",
+    "repository": "https://github.com/Smoggg/narrow-corner-backend",
+    "keywords": ["python", "fastapi" ],
+    "env": {
+        "PORT":"8080"
+    }
+  }
