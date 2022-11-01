@@ -15,4 +15,4 @@ jobs:
           pip install pipenv
           pipenv install
       - run: |
-          black --check --verbose .
+          pipenv run black --check --verbose .
